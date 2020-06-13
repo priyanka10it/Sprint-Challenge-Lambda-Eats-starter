@@ -13,8 +13,16 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead.
 
 1. In 1-2 sentences, explain what React's `useRouteMatch` hook is used for.
+
+Ans.The useRouteMatch hook is useful any time we are using a <Route> just so we can get access to its match data, including all of the times we might render a <Route> all by itself outside of a <Switch>. It matches the URL exactly like a <Route> would, including the exact, strict, and sensitive options.
+
 2. How would you explain form validation to someone who has never programmed before?
+
+Ans.Form validation normally used to occur at the server, after the client had entered all the necessary data and then pressed the Submit button. If the data entered by a client was incorrect or was simply missing, the server would have to send all the data back to the client and request that the form be resubmitted with correct information.
+
 3. In 1-2 sentences, define end to end testing.
+
+Ans.End-to-end testing is a technique used to test whether the flow of an application right from start to finish is behaving as expected. The purpose of performing end-to-end testing is to identify system dependencies and to ensure that the data integrity is maintained between various system components and systems.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section **will** prevent you from passing this challenge.
 
